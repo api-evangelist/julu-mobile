@@ -1,7 +1,24 @@
 aid: julu-mobile
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/julu-mobile.png
 name: Julu Mobile
-description: Julu Mobile is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Julu Mobile was a Shanghai, China based mobile advertising network that served targeted,
+  personalized ads to Chinese mobile users by analyzing mobile interactions to profile user interests.
+  Backed by 500 Global, the company was acquired by Zhubajie on November 1, 2012 and no longer operates
+  an independent product or developer platform. This profile was surfaced from the 500 Global portfolio
+  and added to the API Evangelist network. As of the July 2026 enrichment pass the company publishes no
+  public API, SDK, documentation, MCP server, or developer surface, and julumobile.com resolves to a
+  Cloudflare block page.
 url: https://raw.githubusercontent.com/api-evangelist/julu-mobile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +28,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+x-status: defunct
+x-acquired-by: Zhubajie
+x-acquired-date: '2012-11-01'
 tags:
 - Company
+- Mobile
+- Advertising
+- AdTech
+- China
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://julumobile.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

@@ -28,8 +28,8 @@ description: Julu Mobile was a Shanghai, China based mobile advertising network 
   Backed by 500 Global, the company was acquired by Zhubajie on November 1, 2012 and no longer operates
   an independent product or developer platform. This profile was surfaced from the 500 Global portfolio
   and added to the API Evangelist network. As of the July 2026 enrichment pass the company publishes no
-  public API, SDK, documentation, MCP server, or developer surface, and julumobile.com resolves to a
-  Cloudflare block page.
+  public API, SDK, documentation, MCP server, or developer surface, and julumobile.com resolves to a Cloudflare
+  block page.
 url: https://raw.githubusercontent.com/api-evangelist/julu-mobile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -39,7 +39,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-09-15'
 x-status: defunct
 x-acquired-by: Zhubajie
 x-acquired-date: '2012-11-01'
@@ -50,6 +50,7 @@ tags:
 - AdTech
 - China
 - Acquired
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
